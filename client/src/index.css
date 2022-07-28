@@ -1,6 +1,6 @@
 :root {
-  --primary: #232F3E;
-  --secondary: #F3A847;
+  --primary: #6f839c;
+  --secondary: #8ac833;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #272f32;
@@ -32,6 +32,7 @@ code {
 html,
 body {
   min-height: 100%;
+  min-width: 100%;
 }
 
 body {
@@ -151,8 +152,8 @@ input:focus {
 }
 
 .container {
-  width: 85%;
-  max-width: 1200px;
+  width: 100%;
+  /* max-width: 1200px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -173,6 +174,7 @@ input:focus {
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
+  padding: 5px;
 }
 
 .mx-2 {
